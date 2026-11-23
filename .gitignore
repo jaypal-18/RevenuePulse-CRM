@@ -1,0 +1,38 @@
+#Dependencies
+node_modules/
+**/node_modules/
+
+#Environment secrets
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#Build output
+dist/
+dist-ssr/
+build/
+coverage/
+
+#Local and editior files
+.local
+*.local
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extentions.json
+.idea/
+
+#Vercel local files
+.vercel/
+
+#Temporary files
+*.tmp
+*.temp
